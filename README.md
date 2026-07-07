@@ -56,4 +56,8 @@ My toolkit includes SQL, Python, Power BI, Excel, SAP Analytics Cloud, SAP S/4HA
 **Aritra Panja**  
 Business Analyst | Business Analytics | Data & BI | SAP Process Improvement
 
-Add your preferred LinkedIn URL and professional email address here before publishing.
+Likedin URL - www.linkedin.com/in/
+aritra-panja271098
+
+Email ID - aritrapanja@gmail.com
+
