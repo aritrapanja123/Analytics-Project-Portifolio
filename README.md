@@ -19,7 +19,6 @@ Welcome to my portfolio of applied analytics and decision-support projects. The 
 ```text
 Aritra-Panja-Business-Analytics-Portfolio/
 ├── README.md
-├── CV_AND_LINKEDIN_PROJECT_DESCRIPTIONS.md
 └── projects/
     ├── 01-employee-attrition-prediction/
     ├── 02-business-intelligence-decision-making/
