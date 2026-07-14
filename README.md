@@ -1,371 +1,268 @@
-# 👋 Aritra Panja
+# Aritra Panja | Business Analytics & Business Analysis Portfolio
 
-# Business Analytics & Business Analysis Portfolio
-
-**Business Analysis • Business Analytics • Business Intelligence • Power BI • Python • SQL • SAP • Decision Science**
-
----
+![Business Analysis](https://img.shields.io/badge/Business%20Analysis-Requirements%20%26%20Process%20Improvement-blue)
+![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Visualisation-yellow)
+![Python](https://img.shields.io/badge/Python-Analytics%20%26%20Machine%20Learning-blue)
+![SQL](https://img.shields.io/badge/SQL-Data%20Analysis-lightgrey)
+![SAP](https://img.shields.io/badge/SAP-S%2F4HANA%20%7C%20Analytics%20Cloud-0FAAFF)
+![Decision Science](https://img.shields.io/badge/Decision%20Science-Simulation%20%26%20Optimisation-green)
 
 ## About This Portfolio
 
-Welcome to my portfolio of applied **Business Analysis, Business Analytics, Business Intelligence, and Decision Science** projects.
+Welcome to my portfolio of applied **Business Analysis, Business Analytics, Business Intelligence, and Decision Science projects**.
 
-This repository showcases how I solve business and operational problems by combining:
+This repository demonstrates how I approach business and operational problems by combining:
 
-- Business problem definition
-- Business analysis and requirements thinking
-- Data analysis and visualisation
-- KPI development and performance reporting
-- Machine learning and predictive analytics
-- Process modelling and simulation
-- Optimisation and decision modelling
-- Risk and uncertainty analysis
-- Business-focused recommendations
+* business problem definition;
+* data analysis and visualisation;
+* KPI development and performance analysis;
+* machine learning and predictive analytics;
+* process modelling and simulation;
+* optimisation and scenario analysis;
+* risk and uncertainty analysis;
+* business-focused recommendations.
 
-My focus is not only on building analytical models but on translating analysis into **clear, practical, and actionable business decisions**.
-
----
-
-# Portfolio Projects
-
-| Project | Business Problem | Core Technologies |
-|---------|------------------|------------------|
-| Employee Attrition Prediction | Predict employees at risk of voluntary attrition and support targeted retention strategies | Python, Machine Learning, SHAP |
-| Business Intelligence & Decision Making | Transform organisational data into meaningful business insights | Power BI, KPI Reporting |
-| Customer Sentiment Analysis | Automatically classify and analyse customer feedback | NLP, BERT, Python |
-| Food Redistribution Simulation | Improve food redistribution operations and reduce waste | Discrete Event Simulation |
-| Optimisation & Decision Modelling | Optimise transportation costs under operational constraints | Linear Programming |
-| Risk Management | Support decision-making under uncertainty | Risk Analysis |
-| Behavioural Operations | Understand behavioural influences on operational decisions | Decision Theory |
+My focus is not only on building analytical models, but on translating analysis into **clear, practical, and actionable business decisions**.
 
 ---
 
-# Featured Projects
+## Quick Navigation
+
+| Project                                                                                         | Business Problem                                                                                                       | Key Methods                                                       |
+| ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| [Employee Attrition Prediction](./projects/01-employee-attrition-prediction/)                   | How can organisations identify employees at higher risk of voluntary attrition and prioritise retention interventions? | Python, Machine Learning, SMOTE, SHAP, Threshold Analysis         |
+| [Business Intelligence & Decision Making](./projects/02-business-intelligence-decision-making/) | How can organisational data be transformed into meaningful performance insights?                                       | Power BI, KPI Analysis, Performance Reporting, Data Visualisation |
+| [Customer Sentiment Analysis](./projects/03-customer-sentiment-analysis/)                       | How can large volumes of customer feedback be automatically classified and analysed?                                   | NLP, TF-IDF, Logistic Regression, Naive Bayes, CNN, BERT          |
+| [Food Redistribution Simulation](./projects/04-food-redistribution-simulation/)                 | How can food redistribution operations be improved to reduce waste and operational bottlenecks?                        | Discrete Event Simulation, Process Modelling, Capacity Analysis   |
+| [Optimisation & Decision Modelling](./projects/05-optimisation-decision-modelling/)             | How can transportation costs be minimised while satisfying capacity and allocation constraints?                        | Linear Programming, Excel Solver, Scenario Analysis               |
+| [Risk Management](./projects/06-risk-management/)                                               | How can project uncertainty be incorporated into planning and decision-making?                                         | Risk Analysis, Dependency Analysis, Scenario Reasoning            |
+| [Behavioural Operations](./projects/07-behavioural-operations/)                                 | How do behavioural factors influence operational and economic decisions?                                               | Expected Utility Theory, Behavioural Analysis, Decision Theory    |
 
 ---
 
-# 1. Employee Attrition Prediction
+# Featured Case Studies
 
-## Business Question
+## 1. Employee Attrition Prediction
 
-**How can organisations identify employees at higher risk of voluntary attrition while keeping retention interventions operationally realistic?**
+### Business Question
 
-![Threshold Trade-off Analysis](projects/01-employee-attrition-prediction/assets/threshold-tradeoff-analysis.png)
+How can an organisation identify employees at higher risk of voluntary attrition while keeping retention interventions operationally realistic?
 
-## What I Did
+### What I Did
 
-- Developed an end-to-end machine learning workflow.
-- Compared six predictive classification models.
-- Applied leakage-safe preprocessing and in-fold SMOTE.
-- Evaluated models using ROC-AUC, PR-AUC, Precision, Recall and F1-score.
-- Performed threshold sensitivity analysis based on intervention capacity.
-- Used SHAP to explain the key drivers of employee attrition.
-- Conducted fairness analysis across employee groups.
-- Converted model outputs into practical HR retention recommendations.
+* Developed an end-to-end machine learning classification workflow.
+* Compared six predictive models.
+* Applied leakage-safe preprocessing and in-fold SMOTE.
+* Evaluated models using ROC-AUC, PR-AUC, precision, recall, and F1-score.
+* Performed threshold sensitivity analysis based on intervention capacity.
+* Used SHAP to explain the main drivers of attrition.
+* Conducted fairness analysis across employee groups.
+* Translated predictive outputs into retention-focused business recommendations.
 
-## Technologies
+### Methods & Tools
 
-Python • Pandas • Scikit-learn • XGBoost • SHAP • SMOTE • Machine Learning
+`Python` `Pandas` `Scikit-learn` `XGBoost` `SMOTE` `SHAP` `Machine Learning`
 
-➡️ **View Project:** `projects/01-employee-attrition-prediction`
-
----
-
-# 2. Business Intelligence & Decision Making
-
-## Business Question
-
-**How can sales and operational data be transformed into meaningful performance insights for management decision-making?**
-
-![Sales Dashboard](projects/02-business-intelligence-decision-making/assets/sales-profit-trend.png)
-
-## What I Did
-
-- Analysed sales and profitability performance.
-- Evaluated product and category performance.
-- Analysed regional sales trends.
-- Performed customer segmentation analysis.
-- Investigated the relationship between discounts and profitability.
-- Evaluated shipping performance.
-- Analysed product return trends.
-- Identified opportunities to improve reporting and business performance.
-
-## Technologies
-
-Power BI • KPI Reporting • Dashboard Development • Data Visualisation • Business Intelligence
-
-➡️ **View Project:** `projects/02-business-intelligence-decision-making`
+[View Project](./projects/01-employee-attrition-prediction/)
 
 ---
 
-# 3. Customer Sentiment Analysis
+## 2. Business Intelligence & Decision Making
 
-## Business Question
+### Business Question
 
-**How can large volumes of customer feedback be automatically classified and analysed?**
+How can sales and operational data be transformed into meaningful performance insights for management decision-making?
 
-## What I Did
+### What I Did
 
-- Built multiple NLP classification models.
-- Compared traditional machine learning with deep learning approaches.
-- Implemented TF-IDF feature engineering.
-- Compared Logistic Regression, Naive Bayes, CNN and BERT.
-- Evaluated classification performance across multiple metrics.
-- Generated business insights from customer sentiment patterns.
+* Analysed sales and profitability performance.
+* Evaluated product and category performance.
+* Examined regional and geographical trends.
+* Analysed customer segments.
+* Investigated discount relationships.
+* Evaluated shipping mode performance.
+* Analysed product return trends.
+* Considered organisational challenges involving data quality, integration, and analytics adoption.
 
-## Technologies
+### Methods & Tools
 
-Python • NLP • TF-IDF • Logistic Regression • Naive Bayes • CNN • BERT
+`Power BI` `KPI Analysis` `Data Visualisation` `Performance Analysis` `Business Intelligence`
 
-➡️ **View Project:** `projects/03-customer-sentiment-analysis`
-
----
-
-# 4. Food Redistribution Simulation
-
-## Business Question
-
-**How can a university food redistribution process be redesigned to reduce waste and improve operational efficiency?**
-
-![Food Redistribution Process](projects/04-food-redistribution-simulation/assets/food-redistribution-des-flow.png)
-
-## What I Did
-
-- Modelled the end-to-end redistribution process.
-- Simulated collection, sorting, storage and distribution activities.
-- Analysed bottlenecks and queue behaviour.
-- Evaluated operational capacity constraints.
-- Tested alternative operational scenarios.
-- Developed evidence-based improvement recommendations.
-
-## Technologies
-
-Discrete Event Simulation • Process Modelling • Capacity Planning • Scenario Analysis
-
-➡️ **View Project:** `projects/04-food-redistribution-simulation`
+[View Project](./projects/02-business-intelligence-decision-making/)
 
 ---
 
-# 5. Optimisation & Decision Modelling
+## 3. Food Redistribution Simulation
 
-## Business Question
+### Business Question
 
-**How can transportation costs be minimised while satisfying operational constraints?**
+How can a university food redistribution process be redesigned to reduce waste and improve operational flow?
 
-## What I Did
+### What I Did
 
-- Built optimisation models using Linear Programming.
-- Developed transportation allocation models.
-- Applied operational constraints.
-- Performed scenario analysis.
-- Compared alternative allocation strategies.
-- Produced business-focused optimisation recommendations.
+* Modelled the end-to-end redistribution process.
+* Represented collection, sorting, storage, and distribution activities.
+* Analysed process bottlenecks and queues.
+* Evaluated capacity constraints.
+* Tested alternative operational scenarios.
+* Developed evidence-based process improvement recommendations.
 
-## Technologies
+### Methods & Tools
 
-Linear Programming • Excel Solver • Optimisation • Scenario Analysis
+`Discrete Event Simulation` `Process Modelling` `Bottleneck Analysis` `Capacity Planning` `Scenario Analysis`
 
-➡️ **View Project:** `projects/05-optimisation-decision-modelling`
-
----
-
-# 6. Risk Management
-
-## Business Question
-
-**How can uncertainty be incorporated into business planning and decision-making?**
-
-## What I Did
-
-- Identified project risks.
-- Analysed risk dependencies.
-- Evaluated uncertainty scenarios.
-- Assessed potential business impacts.
-- Compared mitigation strategies.
-- Produced structured risk recommendations.
-
-## Technologies
-
-Risk Analysis • Scenario Planning • Dependency Analysis
-
-➡️ **View Project:** `projects/06-risk-management`
+[View Project](./projects/04-food-redistribution-simulation/)
 
 ---
 
-# 7. Behavioural Operations
-
-## Business Question
-
-**How do behavioural factors influence operational and economic decisions?**
-
-## What I Did
-
-- Analysed behavioural decision-making.
-- Applied Expected Utility Theory.
-- Investigated decision biases.
-- Compared rational and behavioural models.
-- Evaluated operational implications.
-- Developed evidence-based recommendations.
-
-## Technologies
-
-Decision Theory • Behavioural Economics • Expected Utility Theory
-
-➡️ **View Project:** `projects/07-behavioural-operations`
-
----
-
-# Technical Skills
+# Skills & Technology
 
 ## Business Analysis
 
-- Requirements Elicitation
-- Functional & Business Requirements
-- User Stories
-- Acceptance Criteria
-- Process Mapping
-- BPMN
-- Gap Analysis
-- UAT
-- Stakeholder Management
-- Workshops
-- Root Cause Analysis
-- Business Process Improvement
+| Area             | Skills                                                                                                      |
+| ---------------- | ----------------------------------------------------------------------------------------------------------- |
+| Requirements     | Requirements Elicitation, Business Requirements, Functional Requirements, User Stories, Acceptance Criteria |
+| Process Analysis | As-Is Analysis, To-Be Design, Gap Analysis, Process Mapping, BPMN                                           |
+| Delivery         | UAT, Test Scenarios, Traceability, Agile, Scrum, Kanban                                                     |
+| Stakeholders     | Workshops, Interviews, Stakeholder Management, Cross-functional Collaboration                               |
+| Improvement      | Root Cause Analysis, Process Improvement, Business Case Development, Decision Support                       |
 
----
+## Data & Business Intelligence
 
-## Business Intelligence & Data Analytics
-
-- SQL
-- Python
-- Excel
-- Power BI
-- SAP Analytics Cloud
-- KPI Reporting
-- Dashboard Development
-- Executive Reporting
-- Data Storytelling
-
----
+| Area           | Skills                                                                  |
+| -------------- | ----------------------------------------------------------------------- |
+| Data Analysis  | SQL, Python, Excel                                                      |
+| BI & Reporting | Power BI, SAP Analytics Cloud, KPI Reporting                            |
+| Visualisation  | Dashboard Development, Executive Reporting, Data Storytelling           |
+| Analysis       | Trend Analysis, Variance Analysis, Segmentation, Performance Monitoring |
 
 ## Analytics & Decision Science
 
-- Logistic Regression
-- Decision Trees
-- Random Forest
-- XGBoost
-- Naive Bayes
-- Support Vector Machines
-- SHAP Explainability
-- Machine Learning
-- Simulation
-- Linear Programming
-- Optimisation
-- Risk Analysis
-- Scenario Analysis
-
----
+| Area                | Skills                                                                        |
+| ------------------- | ----------------------------------------------------------------------------- |
+| Machine Learning    | Logistic Regression, Decision Trees, Random Forest, XGBoost, Naive Bayes, SVM |
+| NLP                 | TF-IDF, Sentiment Analysis, CNN, BERT                                         |
+| Explainability      | SHAP, Feature Importance, Threshold Analysis                                  |
+| Operations Research | Simulation, Linear Programming, Optimisation                                  |
+| Decision Analysis   | Scenario Analysis, Risk Analysis, Behavioural Decision-Making                 |
 
 ## Enterprise Platforms
 
-- SAP S/4HANA
-- SAP Analytics Cloud
-- ServiceNow
-- Microsoft Azure
-- Power BI
+`SAP S/4HANA` `SAP Analytics Cloud` `ServiceNow` `Power BI` `Azure` `Excel`
 
 ---
 
 # Repository Structure
 
-```
+```text
 Aritra-Panja-Business-Analytics-Portfolio/
 │
 ├── README.md
 │
 └── projects/
+    │
     ├── 01-employee-attrition-prediction/
+    │   ├── README.md
+    │   ├── employee-attrition-prediction-report.pdf
+    │   └── assets/
+    │
     ├── 02-business-intelligence-decision-making/
+    │   ├── README.md
+    │   ├── business-intelligence-decision-making-report.pdf
+    │   └── assets/
+    │
     ├── 03-customer-sentiment-analysis/
+    │   ├── README.md
+    │   ├── customer-sentiment-analysis-report.pdf
+    │   └── assets/
+    │
     ├── 04-food-redistribution-simulation/
+    │   ├── README.md
+    │   ├── food-redistribution-simulation-report.pdf
+    │   └── assets/
+    │
     ├── 05-optimisation-decision-modelling/
+    │   ├── README.md
+    │   ├── optimisation-decision-modelling-report.pdf
+    │   └── assets/
+    │
     ├── 06-risk-management/
+    │   ├── README.md
+    │   ├── risk-management-report.pdf
+    │   └── assets/
+    │
     └── 07-behavioural-operations/
+        ├── README.md
+        ├── behavioural-operations-report.pdf
+        └── assets/
 ```
 
 ---
 
-# Recommended Projects
+# Which Projects Should You View?
 
-## Business Analyst
+### Business Analyst Roles
 
-- Business Intelligence & Decision Making
-- Food Redistribution Simulation
-- Optimisation & Decision Modelling
-- Risk Management
+Recommended starting points:
 
----
+1. [Business Intelligence & Decision Making](./projects/02-business-intelligence-decision-making/)
+2. [Food Redistribution Simulation](./projects/04-food-redistribution-simulation/)
+3. [Optimisation & Decision Modelling](./projects/05-optimisation-decision-modelling/)
+4. [Risk Management](./projects/06-risk-management/)
 
-## Data Business Analyst / BI Analyst
+### Data Business Analyst & BI Analyst Roles
 
-- Employee Attrition Prediction
-- Business Intelligence & Decision Making
-- Customer Sentiment Analysis
+Recommended starting points:
 
----
+1. [Business Intelligence & Decision Making](./projects/02-business-intelligence-decision-making/)
+2. [Employee Attrition Prediction](./projects/01-employee-attrition-prediction/)
+3. [Customer Sentiment Analysis](./projects/03-customer-sentiment-analysis/)
 
-## Process Improvement & Operational Analytics
+### Process Improvement & Operational Analytics Roles
 
-- Food Redistribution Simulation
-- Optimisation & Decision Modelling
-- Risk Management
+Recommended starting points:
+
+1. [Food Redistribution Simulation](./projects/04-food-redistribution-simulation/)
+2. [Optimisation & Decision Modelling](./projects/05-optimisation-decision-modelling/)
+3. [Risk Management](./projects/06-risk-management/)
 
 ---
 
 # About Me
 
-I am a **Business Analytics professional** with experience in **Business Analysis, SAP-enabled process improvement, stakeholder collaboration, KPI development, reporting, and data analytics**.
+I am a **Business Analytics professional** with experience across business analysis, SAP-enabled process improvement, requirements gathering, process analysis, KPI development, reporting, and data analytics.
 
-I hold an **MSc in Business Analytics & Management Science (Distinction)** from the **University of Southampton**.
+I hold an **MSc in Business Analytics & Management Science with Distinction** from the **University of Southampton**.
 
 My experience combines:
 
-- Business Analysis
-- Requirements Gathering
-- SAP Process Improvement
-- Stakeholder Workshops
-- Process Mapping
-- KPI Development
-- SQL
-- Python
-- Power BI
-- SAP Analytics Cloud
-- UAT & Testing
-- Data-Driven Decision Support
+* business analysis and requirements gathering;
+* SAP-enabled business process improvement;
+* stakeholder workshops and cross-functional collaboration;
+* data analysis using SQL, Python, Power BI, and Excel;
+* KPI development and performance reporting;
+* process mapping and gap analysis;
+* UAT and test scenario development;
+* analytical modelling and decision support.
 
-I am interested in opportunities across:
-
-- Business Analysis
-- Data Business Analysis
-- Business Intelligence
-- Product Analytics
-- Process Improvement
-- SAP Business Transformation
+I am interested in opportunities across **Business Analysis, Data Business Analysis, Business Intelligence, Process Improvement, Product Analysis, and SAP-enabled Business Transformation**.
 
 ---
 
-# Connect
+# Contact
 
 **Aritra Panja**
 
-**Business Analyst | Business Analytics | Business Intelligence | SAP Process Improvement**
+Business Analyst | Business Analytics | Data & BI | SAP Process Improvement
 
-📧 **Email:** aritrapanja@gmail.com
+**LinkedIn:** [linkedin.com/in/aritra-panja271098](https://www.linkedin.com/in/aritra-panja271098)
 
-🔗 **LinkedIn:** https://linkedin.com/in/aritra-panja271098
+**Email:** [aritrapanja@gmail.com](mailto:aritrapanja@gmail.com)
 
 ---
 
-> **"Understanding business problems, analysing data, and transforming insights into actionable business decisions."**
+## Portfolio Purpose
 
-⭐ Thank you for visiting my portfolio. Feel free to explore the projects or connect with me on LinkedIn.
+> Understanding business problems, structuring analytical solutions, evaluating alternatives, and translating data into actionable business decisions.
+
+Thank you for visiting my portfolio.
